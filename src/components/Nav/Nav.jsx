@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-scroll'
 
 const Nav = () => {
   return (
@@ -8,10 +9,10 @@ const Nav = () => {
             <p>RODRIGO NICOLAS VILLARREAL</p>
         </div>
         <div className='flex space-x-6 items-center'>
-            <p className='hover:cursor-pointer'>HOME</p>
-            <p className='hover:cursor-pointer'>ABOUT</p>
-            <p className='hover:cursor-pointer'>PROJECTS</p>
-            <p className='hover:cursor-pointer'>CONTACT</p>
+        <Link to="intro" smooth={true} duration={500}><p className='hover:cursor-pointer'>HOME</p></Link>
+        <Link to="about" smooth={true} duration={500}><p className='hover:cursor-pointer'>ABOUT</p></Link>
+        <Link to="projects" smooth={true} duration={500}><p className='hover:cursor-pointer'>PROJECTS</p></Link>
+        <Link to="contact" smooth={true} duration={500}> <p className='hover:cursor-pointer'>CONTACT</p></Link>
         </div>
     </div>
   )

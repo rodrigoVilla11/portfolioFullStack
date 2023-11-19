@@ -17,7 +17,7 @@ import github from '../../assets/image/github.png'
 
 const aboutMe = () => {
   return (
-    <div className=' bg-white w-full h-auto flex flex-col justify-center items-center'>
+    <div className=' bg-white w-full h-auto flex flex-col'>
         <div className='flex flex-col justify-center items-center p-10'>
         <h2 className='text-4xl p-10'>ABOUT ME</h2>
         <p className='text-xl px-24'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde, maiores. Illum impedit, odio dolorum sit numquam provident corporis, temporibus unde quod nisi, nemo fuga non. Laboriosam non mollitia quasi sed.</p>

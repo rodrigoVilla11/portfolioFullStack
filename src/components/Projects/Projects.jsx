@@ -2,7 +2,7 @@ import React from 'react'
 import macbookSixCircles from "../../assets/image/macbookSixCircles.jpg"
 import Project from './Project'
 
-const Projects = () => {
+const Projects = (props) => {
   return (
     <div className='bg-white w-full h-auto flex flex-col justify-center items-center p-10'>
         <h2 className='p-10 text-4xl'>PROJECTS</h2>
