@@ -1,4 +1,6 @@
 import React from 'react'
+import { Link } from 'react-scroll'
+
 import Skills from './Skills'
 import html from '../../assets/image/html.png'
 import css from '../../assets/image/css.png'
@@ -26,7 +28,9 @@ const aboutMe = () => {
         <div className='w-1/2 p-10'>
         <h3 className='text-2xl pb-5'>Get to know me!</h3>
         <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptates sint, rerum veniam nesciunt deleniti voluptatibus ut minus fugit sapiente corrupti numquam, saepe sequi facere? Odio vitae vel vero est beatae? Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint dolore obcaecati voluptatum iusto ea, debitis nemo provident similique quisquam nulla voluptate ipsa in saepe? Qui, enim. Natus iure magnam ad.</p>
-        <p className='h-20 w-64 bg-spacecadet hover:bg-indigo hover:cursor-pointer text-white rounded-xl mt-16 flex items-center justify-center'>CONTACT</p> 
+        <Link to="contact" smooth={true} duration={500}>
+          <p className='h-20 w-64 bg-spacecadet hover:bg-indigo hover:cursor-pointer text-white rounded-xl mt-16 flex items-center justify-center'>CONTACT</p> 
+          </Link>
         </div>
         <div className='w-1/2 p-10'>
         <h3 className='text-2xl pb-5'>My Skills!</h3>

@@ -8,8 +8,10 @@ const Projects = (props) => {
         <h2 className='p-10 text-4xl'>PROJECTS</h2>
         <p className=' text-xl px-24'>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Id quibusdam cum accusamus beatae, assumenda hic aperiam unde deleniti excepturi quaerat consequatur, maxime amet dicta enim laudantium quidem quae ab. Esse.</p>
         <div className='grid grid-cols-1 gap-4 w-full p-10'>
-        <Project name="Six Circles" description="Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ut excepturi, iusto enim illo odio maxime alias soluta voluptatem nostrum quisquam pariatur, voluptatum quos exercitationem nulla! Ullam excepturi commodi fugiat pariatur?" img={macbookSixCircles}/>
-        <Project name="Kitchen Cabinet" description="Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ut excepturi, iusto enim illo odio maxime alias soluta voluptatem nostrum quisquam pariatur, voluptatum quos exercitationem nulla! Ullam excepturi commodi fugiat pariatur?"/>
+        <Project name="Six Circles" description="Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ut excepturi, iusto enim illo odio maxime alias soluta voluptatem nostrum quisquam pariatur, voluptatum quos exercitationem nulla! Ullam excepturi commodi fugiat pariatur?" img={macbookSixCircles} linkTo="/project1"/>
+        <Project name="Kitchen Cabinet" description="Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ut excepturi, iusto enim illo odio maxime alias soluta voluptatem nostrum quisquam pariatur, voluptatum quos exercitationem nulla! Ullam excepturi commodi fugiat pariatur?" img={macbookSixCircles} linkTo="/project2"/>
+        <Project name="Rick And Morty" description="Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ut excepturi, iusto enim illo odio maxime alias soluta voluptatem nostrum quisquam pariatur, voluptatum quos exercitationem nulla! Ullam excepturi commodi fugiat pariatur?" img={macbookSixCircles} linkTo="/project3"/>
+        <Project name="Star Wars" description="Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ut excepturi, iusto enim illo odio maxime alias soluta voluptatem nostrum quisquam pariatur, voluptatum quos exercitationem nulla! Ullam excepturi commodi fugiat pariatur?" img={macbookSixCircles} linkTo="/project4"/>
     </div>
     </div>
   )
