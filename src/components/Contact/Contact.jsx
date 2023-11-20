@@ -55,7 +55,7 @@ const Contact = () => {
               <textarea onChange={handleChange} className='bg-eggshell w-1/2 h-full text-2xl rounded-xl focus:outline-none' type="text" name="message" />
             </div>
 
-            <button type="submit" className='h-20 w-64 bg-spacecadet rounded-xl my-4 flex items-center justify-center text-white hover:bg-indigo hover:cursor-pointe'>SUBMIT</button>  
+            <button type="submit" className='h-20 w-64 hover:shadow-2xl bg-spacecadet rounded-xl my-4 flex items-center justify-center text-white hover:bg-indigo hover:cursor-pointe'>SUBMIT</button>  
         </form>
     </div>
   )

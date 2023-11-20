@@ -5,6 +5,7 @@ import Skills from './Skills'
 import html from '../../assets/image/html.png'
 import css from '../../assets/image/css.png'
 import js from '../../assets/image/js.png'
+import ts from '../../assets/image/ts.png'
 import nodejs from '../../assets/image/nodejs.png'
 import express from '../../assets/image/express.png'
 import postgresql from '../../assets/image/PostgreSQL.png'
@@ -15,6 +16,8 @@ import tailwind from '../../assets/image/tailwind.png'
 import docker from '../../assets/image/docker.png'
 import git from '../../assets/image/git.png'
 import github from '../../assets/image/github.png'
+
+
 
 
 const aboutMe = () => {
@@ -29,7 +32,7 @@ const aboutMe = () => {
         <h3 className='text-2xl pb-5'>Get to know me!</h3>
         <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptates sint, rerum veniam nesciunt deleniti voluptatibus ut minus fugit sapiente corrupti numquam, saepe sequi facere? Odio vitae vel vero est beatae? Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint dolore obcaecati voluptatum iusto ea, debitis nemo provident similique quisquam nulla voluptate ipsa in saepe? Qui, enim. Natus iure magnam ad.</p>
         <Link to="contact" smooth={true} duration={500}>
-          <p className='h-20 w-64 bg-spacecadet hover:bg-indigo hover:cursor-pointer text-white rounded-xl mt-16 flex items-center justify-center'>CONTACT</p> 
+          <p className='h-20 w-64 bg-spacecadet hover:bg-indigo hover:shadow-2xl hover:cursor-pointer text-white rounded-xl mt-16 flex items-center justify-center'>CONTACT</p> 
           </Link>
         </div>
         <div className='w-1/2 p-10'>
@@ -38,12 +41,13 @@ const aboutMe = () => {
            <Skills name="HTML" image={html}/>
            <Skills name="CSS" image={css}/>
            <Skills name="JavaScript" image={js}/>
+           <Skills name="TypeScript" image={ts}/>
            <Skills name="Node JS"image={nodejs}/>
            <Skills name="Express"image={express}/>
-           <Skills name="PostgreSQL" image={postgresql}/>
-           <Skills name="MongoDB" image={mongodb}/>
            <Skills name="React" image={react}/>
            <Skills name="Redux" image={redux}/>
+           <Skills name="PostgreSQL" image={postgresql}/>
+           <Skills name="MongoDB" image={mongodb}/>
            <Skills name="Tailwind" image={tailwind}/>
            <Skills name="Docker" image={docker}/>
            <Skills name="Git" image={git}/>

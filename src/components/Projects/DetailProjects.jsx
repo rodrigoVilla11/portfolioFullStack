@@ -25,10 +25,10 @@ const DetailProjects = (props) => {
         <h2 className='text-2xl p-10'>Links</h2>
         <div className='flex'>
         <a href={props.links.github}>
-        <p className='h-20 w-64 bg-spacecadet rounded-xl  flex items-center justify-center text-white hover:bg-indigo hover:cursor-pointer mx-24 mb-10'>REPO</p>
+        <p className='h-20 w-64 bg-spacecadet rounded-xl  flex items-center justify-center hover:shadow-2xl text-white hover:bg-indigo hover:cursor-pointer mx-24 mb-10'>REPO</p>
         </a>
         <a href={props.links.live}>
-        <p className='h-20 w-64 bg-spacecadet rounded-xl  flex items-center justify-center text-white hover:bg-indigo hover:cursor-pointer mb-10'>See Live</p>   
+        <p className='h-20 w-64 bg-spacecadet rounded-xl  flex items-center justify-center hover:shadow-2xl text-white hover:bg-indigo hover:cursor-pointer mb-10'>See Live</p>   
         </a></div>
         </div>
     </div>

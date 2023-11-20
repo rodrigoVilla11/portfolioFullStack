@@ -9,12 +9,12 @@ const Nav = () => {
     navigate("/")
   }
   return (
-    <div className='w-full bg-spacecadet p-4 flex justify-between fixed text-white z-50'>
-        <div className='flex space-x-6 items-center'>
+    <div className='w-full bg-spacecadet px-10 py-4 flex justify-between fixed text-white z-50 shadow-2xl'>
+        <div className='flex items-center'>
             <p className="bg-blue-500 text-white rounded-full w-12 h-12 "></p>
-            <button onClick={handleClick}>RODRIGO NICOLAS VILLARREAL</button>
+            <Link to="intro" smooth={true} duration={500}><button onClick={handleClick}>RODRIGO NICOLAS VILLARREAL</button></Link>
         </div>
-        <div className='flex space-x-6 items-center'>
+        <div className='flex space-x-10 items-center'>
        <Link to="intro" smooth={true} duration={500}><button onClick={handleClick}className='hover:cursor-pointer'>HOME</button></Link>
         <Link to="about" smooth={true} duration={500}><p className='hover:cursor-pointer'>ABOUT</p></Link>
         <Link to="projects" smooth={true} duration={500}><p className='hover:cursor-pointer'>PROJECTS</p></Link>

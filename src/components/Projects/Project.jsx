@@ -12,7 +12,7 @@ const Project = (props) => {
         {isButtonVisible && (
           <div className='absolute z-20'>
             <a href="">
-              <p className='m-10 h-20 w-64 bg-spacecadet hover:bg-dogwoodrose hover:cursor-pointer text-white rounded-xl flex items-center justify-center'>
+              <p className='m-10 h-20 w-64 bg-spacecadet hover:shadow-2xl hover:bg-dogwoodrose hover:cursor-pointer text-white rounded-xl flex items-center justify-center'>
                 LIVE
               </p>
             </a>
@@ -23,7 +23,7 @@ const Project = (props) => {
         <h3 className='text-3xl p-10'>{props.name}</h3>
         <p className='text-l px-10'>{props.description}</p>
         <Link to={props.linkTo}>
-        <p className='m-10 h-20 w-64 bg-spacecadet hover:bg-dogwoodrose hover:cursor-pointer text-white rounded-xl flex items-center justify-center'>CASE STUDY</p></Link>
+        <p className='m-10 h-20 w-64 hover:shadow-2xl bg-spacecadet hover:bg-dogwoodrose hover:cursor-pointer text-white rounded-xl flex items-center justify-center'>CASE STUDY</p></Link>
     </div>
 </div></div>
   )
