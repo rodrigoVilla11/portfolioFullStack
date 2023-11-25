@@ -32,7 +32,7 @@ const Contact = () => {
   return (
     <div className=' bg-eggshell w-full h-screen flex flex-col justify-center items-center'>
         <h2 className='p-10 text-4xl '>CONTACT</h2>
-        <p className=' text-xl px-24'>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Id quibusdam cum accusamus beatae, assumenda hic aperiam unde deleniti excepturi quaerat consequatur, maxime amet dicta enim laudantium quidem quae ab. Esse.</p>
+        <p className=' text-xl px-24'>Feel free to Contact me by submitting the form below and I will get back to you as soon as possible</p>
         <form onSubmit={handleSubmit} className='bg-white w-2/3 h-72 flex flex-col justify-center items-center mt-10 rounded-xl'>
             <div>
               <label htmlFor="name">Name:</label>

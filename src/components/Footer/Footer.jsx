@@ -10,7 +10,7 @@ const Footer = () => {
         <div className='flex items-center '>
         <div className='w-1/2'>
             <h3 className='text-2xl pb-5'>RODRIGO NICOLAS VILLARREAL</h3>
-            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Esse ipsam incidunt, dicta magni laudantium veritatis quas voluptatibus exercitationem recusandae consequuntur? Quisquam rem, cum earum iure quos repellat natus quasi molestias?</p>
+            <p>A passionate Full Stack Developer with a comprehensive focus on creating exceptional digital experiences.</p>
         </div>
         <div className='w-1/2 flex flex-col '>
                 <h3 className='self-end text-2xl pb-5 mr-14'>SOCIAL</h3>
