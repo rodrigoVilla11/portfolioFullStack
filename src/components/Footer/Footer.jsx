@@ -6,7 +6,7 @@ import linkedin from '../../assets/logos/linkedin-color.png'
 
 const Footer = () => {
   return (
-    <div className='bg-spacecadet text-white w-full h-80 flex flex-col items-center justify-center p-10'>
+    <div className='bg-spacecadet text-white w-full h-62 flex flex-col items-center justify-center p-10'>
         <div className='flex items-center '>
         <div className='w-1/2'>
             <h3 className='text-2xl pb-5'>RODRIGO NICOLAS VILLARREAL</h3>

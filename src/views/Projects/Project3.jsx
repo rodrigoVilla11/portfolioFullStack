@@ -1,7 +1,7 @@
 import React from 'react'
 import IntroProjects from '../../components/Projects/IntroProjects'
 import DetailProjects from '../../components/Projects/DetailProjects'
-import maxbookSixCircles from "../../assets/image/macbookSixCircles.jpg"
+import macbookStarWars from "../../assets/image/macbookStarWars.jpg"
 
 import JsIMG from "../../assets/image/js.png"
 import HTMLIMG from "../../assets/image/html.png"
@@ -58,7 +58,7 @@ const Project3 = () => {
   return (
     <div>
     <IntroProjects name={name} description={shortDescription} links={links}/>
-    <DetailProjects img={maxbookSixCircles} projectOverview={projectOverview} tools={tools} links={links}/>
+    <DetailProjects img={macbookStarWars} projectOverview={projectOverview} tools={tools} links={links}/>
     </div>
   )
 }
