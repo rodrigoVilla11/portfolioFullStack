@@ -69,7 +69,7 @@ const Project3 = () => {
   }] 
   const links ={
     github: "https://github.com/rodrigoVilla11/star_wars_api_microservices",
-    live: ""
+    live: "https://star-wars-front-theta.vercel.app/"
   }
   return (
     <div>
