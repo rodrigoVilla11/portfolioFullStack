@@ -64,7 +64,7 @@ const Project4 = () => {
   }] 
   const links ={
     github: "https://github.com/rodrigoVilla11/rickAndMortyProject",
-    live: ""
+    live: "https://rick-and-morty-project-beige.vercel.app/"
   }
   return (
     <div>

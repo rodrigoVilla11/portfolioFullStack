@@ -69,7 +69,7 @@ const Project2 = () => {
   }] 
   const links ={
     github: "https://github.com/rodrigoVilla11/PI-Food-RodrigoVilla",
-    live: ""
+    live: "https://pi-food-rodrigo-villa.vercel.app/"
   }
   return (
     <div>

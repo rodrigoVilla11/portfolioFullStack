@@ -72,7 +72,7 @@ Six-Circles is more than an e-commerce platform; it's a community that intellige
   }] 
   const links ={
     github: "https://github.com/six-circles",
-    live: ""
+    live: "https://pf-sixcircles-front.vercel.app/"
   }
   return (
     <div>

@@ -11,7 +11,7 @@ const Project = (props) => {
         <img className={`h-full z-0 ${isButtonVisible ? 'blur-sm' : ''}`}  src={props.img} alt={props.name} />
         {isButtonVisible && (
           <div className='absolute z-20'>
-            <a href="">
+            <a href={props.linkLive}>
               <p className='m-10 h-20 w-64 bg-spacecadet hover:shadow-2xl hover:bg-dogwoodrose hover:cursor-pointer text-white rounded-xl flex items-center justify-center'>
                 LIVE
               </p>
