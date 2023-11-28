@@ -1,0 +1,8 @@
+{
+    "title":"ABOUT ME",
+    "sub-title":"Here you will find more information about me, what I do, and my current skills mostly in terms of programming and technology",
+    "know-me":"Get to know me!",
+    "know-me-p":"I am a passionate full-stack developer with a comprehensive focus on creating exceptional digital experiences. My expertise spans from designing and developing the frontend using technologies like React and Redux to implementing robust servers in the backend with Node.js and Express. With skills in databases such as MongoDB and PostgreSQL, I have worked on diverse projects ranging from web applications to scalable solutions using microservices architectures. My goal is to always merge design elegance with solid functionality, delivering solutions that not only meet user needs but also excel in code efficiency and system scalability. I am excited to continue building the digital future and exploring new opportunities that challenge and expand my skills as a full-stack developer.",
+    "button":"CONTACT",
+    "skills":"My Skills!"
+}

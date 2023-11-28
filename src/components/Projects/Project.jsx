@@ -1,7 +1,11 @@
 import React, { useState } from 'react'
 import { Link } from 'react-router-dom'
+import {useTranslation} from "react-i18next"
+
 
 const Project = (props) => {
+  const {t, i18n} = useTranslation(["projects"])
+
   const [isButtonVisible, setButtonVisible] = useState(false)
   
   return (
@@ -11,9 +15,9 @@ const Project = (props) => {
         <img className={`h-full z-0 ${isButtonVisible ? 'blur-sm' : ''}`}  src={props.img} alt={props.name} />
         {isButtonVisible && (
           <div className='absolute z-20'>
-            <a href={props.linkLive}>
+            <a target="_blank" href={props.linkLive}>
               <p className='m-10 h-20 w-64 bg-spacecadet hover:shadow-2xl hover:bg-dogwoodrose hover:cursor-pointer text-white rounded-xl flex items-center justify-center'>
-                LIVE
+              {t("button_live")}
               </p>
             </a>
           </div>
@@ -21,9 +25,9 @@ const Project = (props) => {
         </div>
     <div className='bg-indigo w-1/2 rounded-r-xl text-white flex flex-col'>
         <h3 className='text-3xl p-10'>{props.name}</h3>
-        <p className='text-l px-10'>{props.description}</p>
+        <p className=' text-sm px-10 '>{props.description}</p>
         <Link to={props.linkTo}>
-        <p className='m-10 h-20 w-64 hover:shadow-2xl bg-spacecadet hover:bg-dogwoodrose hover:cursor-pointer text-white rounded-xl flex items-center justify-center'>CASE STUDY</p></Link>
+        <p className='m-10 mt-14 h-20 w-64 hover:shadow-2xl bg-spacecadet hover:bg-dogwoodrose hover:cursor-pointer text-white rounded-xl flex items-center justify-center'>{t("case_study")}</p></Link>
     </div>
 </div></div>
   )

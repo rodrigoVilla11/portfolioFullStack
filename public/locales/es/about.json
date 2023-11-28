@@ -1,0 +1,9 @@
+
+{
+    "title":"SOBRE MI",
+    "sub-title":"Aquí encontrarás más información sobre mí, lo que hago y mis habilidades actuales, principalmente en términos de programación y tecnología.",
+    "know-me":"¡Conóceme!",
+    "know-me-p":"Soy un apasionado desarrollador full-stack con un enfoque integral en la creación de experiencias digitales excepcionales. Mi experiencia abarca desde el diseño y desarrollo del frontend utilizando tecnologías como React y Redux hasta la implementación de servidores robustos en el backend con Node.js y Express. Con habilidades en bases de datos como MongoDB y PostgreSQL, he trabajado en diversos proyectos que van desde aplicaciones web hasta soluciones escalables utilizando arquitecturas de microservicios. Mi objetivo es fusionar siempre la elegancia del diseño con una funcionalidad sólida, entregando soluciones que no solo satisfacen las necesidades del usuario, sino que también destacan en eficiencia de código y escalabilidad del sistema. Estoy emocionado de continuar construyendo el futuro digital y explorar nuevas oportunidades que desafíen y amplíen mis habilidades como desarrollador full-stack.",
+    "button":"CONTACTO",
+    "skills":"MIS HABILIDADES"
+}
