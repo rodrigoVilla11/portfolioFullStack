@@ -23,7 +23,6 @@ const Nav = () => {
    
     <div className='w-full bg-spacecadet px-10 py-4 flex justify-between fixed text-white z-50 shadow-2xl'>
         <div className='flex items-center'>
-            <p className="bg-blue-500 text-white rounded-full w-12 h-12 bg-indigo hover:bg-dogwoodrose mr-4"></p>
             <Link to="intro" smooth={true} duration={500}><button className='bg-indigo rounded-xl hover:shadow-2xl text-white hover:bg-dogwoodrose hover:cursor-pointer p-2 px-6' onClick={handleClick}>RODRIGO NICOLAS VILLARREAL</button></Link>
         </div>
         <div className='flex space-x-6 items-center'>
