@@ -70,7 +70,6 @@ const Contact = () => {
         if(!form.name || !form.email || !form.message){
             alert("Please complete the form correctly.");
         }else{
-          e.preventDefault()
           try {
             await axios.post('https://back-portfolio-jg2q.onrender.com/send-email', form);
             alert('Email send successfully');
