@@ -7,6 +7,13 @@ const Project = (props) => {
   const {t, i18n} = useTranslation(["projects"])
 
   const [isButtonVisible, setButtonVisible] = useState(false)
+
+  const scrollToTop = () => {
+    window.scrollTo({
+      top: 0,
+      behavior: 'smooth',
+    });
+  };
   
   return (
     <div>  <div className='flex flex-col md:flex-row w-full h-auto relative'>
@@ -26,7 +33,7 @@ const Project = (props) => {
     <div className='bg-indigo md:w-1/2 rounded-b-xl md:rounded-r-xl md:rounded-bl-none  text-white flex flex-col items-center'>
         <h3 className='text-3xl p-10'>{props.name}</h3>
         <p className=' text-sm px-10 '>{props.description}</p>
-        <Link to={props.linkTo}>
+        <Link to={props.linkTo} onClick={scrollToTop}>
         <p className='md:m-10 md:mt-14 m-4 md:h-20 h-10 w-32 md:w-64 hover:shadow-2xl bg-spacecadet hover:bg-dogwoodrose hover:cursor-pointer text-white rounded-xl flex items-center justify-center'>{t("case_study")}</p></Link>
     </div>
 </div></div>

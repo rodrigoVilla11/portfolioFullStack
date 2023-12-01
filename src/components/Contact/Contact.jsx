@@ -42,10 +42,10 @@ const Contact = () => {
 
  
   return (
-    <div className=' bg-eggshell w-full h-screen flex flex-col justify-center items-center p-10'>
+    <div className=' bg-eggshell w-full h-auto flex flex-col justify-center items-center p-10'>
         <h2 className='p-10 text-4xl '>{t("title")}</h2>
         <p className=' text-xl md:px-24'>{t("sub_title")}</p>
-        <form onSubmit={handleSubmit} className='bg-white w-full md:w-2/3 h-72 flex flex-col justify-center items-center mt-10 rounded-xl'>
+        <form onSubmit={handleSubmit} className='bg-white w-full md:w-2/3 h-auto flex flex-col justify-center items-center mt-10 rounded-xl'>
             <div>
               <label htmlFor="name">{t("label_name")}</label>
             </div>

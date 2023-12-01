@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-import { Link } from 'react-scroll'
+import { Link, animateScroll as scroll } from 'react-scroll'
 import { useNavigate } from 'react-router-dom'
 import {useTranslation} from "react-i18next"
 
@@ -26,20 +26,22 @@ const Nav = () => {
     setMenuVisible(!isMenuVisible);
   };
 
+  const scrollToTop = () => {
+    scroll.scrollToTop();
+  };
 
   return (
    
     <div className='w-full bg-spacecadet px-10 py-4 flex justify-between fixed text-white z-50 shadow-2xl'>
        
         <div className='flex items-center'>
-            <Link to="intro" smooth={true} duration={500}><button className='bg-indigo rounded-xl hover:shadow-2xl text-white hover:bg-dogwoodrose hover:cursor-pointer p-2 px-6' onClick={handleClick}>RODRIGO NICOLAS VILLARREAL</button></Link>
+            <Link to="intro" onClick={scrollToTop} smooth={true} duration={500}><button className='bg-indigo rounded-xl hover:shadow-2xl text-white hover:bg-dogwoodrose hover:cursor-pointer p-2 px-6' onClick={handleClick}>RODRIGO N. VILLARREAL</button></Link>
         </div>
         <div>
           <button onClick={toggleDropdown} className='bg-indigo rounded-xl hover:shadow-2xl text-white hover:bg-dogwoodrose hover:cursor-pointer p-2 px-6 md:hidden'>More</button>
           {isMenuVisible && (
           <div className='w-1/3 h-auto absolute top-16 right-0 mt-2 p-2 bg-indigo border rounded shadow flex flex-col items-center space-y-6'>
-            {/* Contenido del menú desplegable en dispositivos móviles */}
-            <Link to='intro' smooth={true} duration={500}>
+            <Link onClick={scrollToTop} to='intro' smooth={true} duration={500}>
               <button onClick={handleClick} className='w-full hover:cursor-pointer'>
                 {t('home')}
               </button>
@@ -63,7 +65,7 @@ const Nav = () => {
         )}
         </div>
         <div className='hidden md:flex md:space-x-6 md:items-center'>
-       <Link to="intro" smooth={true} duration={500}><button onClick={handleClick}className='w-24 hover:cursor-pointer'>{t("home")}</button></Link>
+       <Link onClick={scrollToTop} to="intro" smooth={true} duration={500}><button onClick={handleClick}className='w-24 hover:cursor-pointer'>{t("home")}</button></Link>
         <Link to="about" smooth={true} duration={500}><p className='w-24 hover:cursor-pointer'>{t("about")}</p></Link>
         <Link to="projects" smooth={true} duration={500}><p className='w-24 hover:cursor-pointer'>{t("projects")}</p></Link>
         <Link to="contact" smooth={true} duration={500}> <p className='w-24 hover:cursor-pointer '>{t("contact")}</p></Link>

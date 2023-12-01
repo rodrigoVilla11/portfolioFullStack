@@ -39,7 +39,7 @@ const AboutMe = () => {
         </div>
         <div className='md:w-1/2 md:p-10 pt-5'>
         <h3 className='text-2xl pb-5'>{t("skills")}</h3>
-        <div className='grid grid-cols-4 auto-rows-auto gap-4'>
+        <div className='grid grid-cols-3 md:grid-cols-5 auto-rows-auto gap-4'>
            <Skills name="HTML" image={html}/>
            <Skills name="CSS" image={css}/>
            <Skills name="JavaScript" image={js}/>

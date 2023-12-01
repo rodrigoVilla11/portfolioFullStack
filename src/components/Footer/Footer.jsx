@@ -10,14 +10,14 @@ const Footer = () => {
 
   return (
     <div className='bg-spacecadet text-white w-full h-62 flex flex-col items-center justify-center p-10'>
-        <div className='flex items-center '>
-        <div className='w-1/2'>
+        <div className='flex flex-col md:flex-row items-center '>
+        <div className='md:w-1/2'>
             <h3 className='text-xl md:text-2xl pb-5'>RODRIGO NICOLAS VILLARREAL</h3>
             <p>{t("presentation")}</p>
         </div>
-        <div className='w-1/2 flex flex-col '>
-                <h3 className='self-end text-xl md:text-2xl pb-5 mr-14'>{t("social_media")}</h3>
-            <div className='flex self-end justify-end w-full'>
+        <div className='md:w-1/2 w-full pt-4 md:pt-0  flex flex-col '>
+                <h3 className='md:self-end text-xl md:text-2xl pb-5 md:mr-14'>{t("social_media")}</h3>
+            <div className='flex mde:self-end md:justify-end w-full'>
                 
             <a target="_blank" href="https://www.instagram.com/_villarodrigo/"><img className="w-12 h-12 mx-2" src={instagram}/></a>
             <a target="_blank" href="https://www.linkedin.com/in/rodrigonicolasvillarreal/"><img className="w-12 h-12 mx-2"  src={linkedin}/></a>
