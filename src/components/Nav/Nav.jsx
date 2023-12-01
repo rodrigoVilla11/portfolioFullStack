@@ -48,13 +48,13 @@ const Nav = () => {
               </button>
             </Link>
             <Link to='about' smooth={true} duration={500}>
-              <p className='w-full hover:cursor-pointer'>{t('about')}</p>
+              <button onClick={handleClick} className='w-full hover:cursor-pointer'>{t('about')}</button>
             </Link>
             <Link to='projects' smooth={true} duration={500}>
-              <p className='w-full hover:cursor-pointer'>{t('projects')}</p>
+              <button onClick={handleClick} className='w-full hover:cursor-pointer'>{t('projects')}</button>
             </Link>
             <Link to='contact' smooth={true} duration={500}>
-              <p className='w-full hover:cursor-pointer '>{t('contact')}</p>
+              <button onClick={handleClick} className='w-full hover:cursor-pointer '>{t('contact')}</button>
             </Link>
             <button
               className='w-full bg-indigo rounded-xl flex items-center justify-center hover:shadow-2xl text-white hover:bg-dogwoodrose hover:cursor-pointer'
