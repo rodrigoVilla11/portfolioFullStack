@@ -11,8 +11,8 @@ const Projects = (props) => {
   return (
     <div className='bg-white w-full h-auto flex flex-col justify-center items-center p-10'>
         <h2 className='p-10 text-4xl  pt-20'>{t("title")}</h2>
-        <p className=' text-xl px-24'>{t("sub_title")}</p>
-        <div className='grid grid-cols-1 gap-4 w-full p-10'>
+        <p className=' text-xl md:px-24'>{t("sub_title")}</p>
+        <div className='grid grid-cols-1 gap-4 w-full pt-10 md:p-10'>
         <Project name="SIX CIRCLES" description={t("description_p1")} img={macbookSixCircles} linkTo="/project1" linkLive="https://pf-sixcircles-front.vercel.app/"/>
         <Project name="KITCHEN CABINET" description={t("description_p2")} img={macbookKitchenCabinet} linkTo="/project2" linkLive="https://pi-food-rodrigo-villa.vercel.app/"/>
         <Project name="STAR WARS APP" description={t("description_p3")} img={macbookStarWars} linkTo="/project3" linkLive="https://star-wars-front-theta.vercel.app/"/>

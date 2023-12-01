@@ -11,22 +11,22 @@ const DetailProjects = (props) => {
             <img src={props.img} alt={props.name}/>
         </div>
         <div className='w-4/5'>
-            <h2 className='text-2xl p-10'>{t("project_overview")}</h2>
-            <p className='text-xl px-24'>{props.projectOverview}</p>
+            <h2 className='text-2xl py-10 md:px-10'>{t("project_overview")}</h2>
+            <p className='text-xl md:px-24'>{props.projectOverview}</p>
         </div>
         <div className='w-4/5'>
-            <h2 className='text-2xl p-10'>{t("tools")}</h2>
-            <div className='px-24 grid grid-cols-5 auto-rows-auto gap-4'>
+            <h2 className='text-2xl py-10 md:px-10'>{t("tools")}</h2>
+            <div className='md:px-24 grid grid-cols-3 md:grid-cols-5 auto-rows-auto gap-4'>
             {props.tools&&props.tools.map((tool)=>{
                 return <Skills name={tool.name} image={tool.img}/>
             })}
             </div>
         </div>
         <div className='w-4/5'>
-        <h2 className='text-2xl p-10'>Links</h2>
-        <div className='flex'>
+        <h2 className='text-2xl py-10 md:px-10'>Links</h2>
+        <div className='flex md:flex-row flex-col items-center'>
         <a target="_blank" href={props.links.github}>
-        <p className='h-20 w-64 bg-spacecadet rounded-xl  flex items-center justify-center hover:shadow-2xl text-white hover:bg-indigo hover:cursor-pointer mx-24 mb-10'>REPO</p>
+        <p className='h-20 w-64 bg-spacecadet rounded-xl  flex items-center justify-center hover:shadow-2xl text-white hover:bg-indigo hover:cursor-pointer md:mx-24 mb-10'>REPO</p>
         </a>
         <a target="_blank" href={props.links.live}>
         <p className='h-20 w-64 bg-spacecadet rounded-xl  flex items-center justify-center hover:shadow-2xl text-white hover:bg-indigo hover:cursor-pointer mb-10'>{t("button_live")}</p>   

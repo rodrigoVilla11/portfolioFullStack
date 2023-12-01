@@ -21,9 +21,9 @@ const Intro = () => {
   return (
     <div className=' bg-eggshell w-full h-screen flex flex-col justify-center items-center p-10'>
       <img className="" src={logo_rnv}/>
-     <h1 className='text-4xl p-10 pt-1'>{t("name")}</h1>
-     <p className='text-xl px-24'>{t("presentation")}</p>
-     <div className='flex space-x-10 mt-4'>
+     <h1 className='text-xl md:text-4xl p-5 md:p-10 pt-1'>{t("name")}</h1>
+     <p className='text-md md:text-xl md:px-24'>{t("presentation")}</p>
+     <div className='flex flex-col md:flex-row space-y-5 md:space-x-10 mt-4'>
      <Link to="projects" smooth={true} duration={500}>
     <p className='h-20 w-64 bg-spacecadet rounded-xl  flex items-center justify-center text-white hover:bg-indigo hover:cursor-pointer hover:shadow-2xl'>{t("projects")}</p></Link>
     <button onClick={handleDownload} className='h-20 w-64 bg-spacecadet rounded-xl flex items-center justify-center text-white hover:bg-indigo hover:cursor-pointer hover:shadow-2xl'>{t("cv")}</button>
