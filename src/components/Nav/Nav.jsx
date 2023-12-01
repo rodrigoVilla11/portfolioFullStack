@@ -17,6 +17,7 @@ const Nav = () => {
   
   const handleClick = (e) =>{
     e.preventDefault()
+    setMenuVisible(!isMenuVisible)
     navigate("/")
   }
 
