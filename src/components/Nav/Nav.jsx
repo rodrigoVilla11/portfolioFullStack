@@ -41,7 +41,7 @@ const Nav = () => {
         <div>
           <button onClick={toggleDropdown} className='bg-indigo rounded-xl hover:shadow-2xl text-white hover:bg-dogwoodrose hover:cursor-pointer p-2 px-6 mx-2 md:hidden'>More</button>
           {isMenuVisible && (
-          <div className='w-1/3 h-auto absolute top-16 right-0 mt-2 p-2 bg-indigo border rounded shadow flex flex-col items-center space-y-6'>
+          <div className='w-1/3 h-auto absolute top-16 right-0 mt-2 p-2 bg-indigo border rounded shadow flex flex-col items-center space-y-6 md:hidden'>
             <Link onClick={scrollToTop} to='intro' smooth={true} duration={500}>
               <button onClick={handleClick} className='w-full hover:cursor-pointer'>
                 {t('home')}
