@@ -16,6 +16,8 @@ import tailwind from '../../assets/image/tailwind.png'
 import docker from '../../assets/image/docker.png'
 import git from '../../assets/image/git.png'
 import github from '../../assets/image/github.png'
+import next from '../../assets/image/next.png'
+import nest from '../../assets/image/nest.png'
 import {useTranslation} from "react-i18next"
 
 
@@ -40,6 +42,8 @@ const AboutMe = () => {
         <div className='md:w-1/2 md:p-10 pt-5'>
         <h3 className='text-2xl pb-5'>{t("skills")}</h3>
         <div className='grid grid-cols-3 md:grid-cols-5 auto-rows-auto gap-4'>
+           <Skills name="NEXT" image={next}/>
+           <Skills name="NEST" image={nest}/>
            <Skills name="HTML" image={html}/>
            <Skills name="CSS" image={css}/>
            <Skills name="JavaScript" image={js}/>
