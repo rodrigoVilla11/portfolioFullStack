@@ -2,10 +2,9 @@ import React from 'react'
 import { Link } from 'react-scroll'
 import {useTranslation} from "react-i18next"
 import { saveAs } from 'file-saver';
-import cv_english from '../../assets/pdf/CURRICULUM VITAE ESPANOL 28-11-2023.pdf';
-import cv_spanish from '../../assets/pdf/CURRICULUM VITAE INGLES 28-11-2023.pdf';
+import cv_english from '../../assets/pdf/CURRICULUM VITAE ESPANOL 28-06-24 .pdf';
+import cv_spanish from '../../assets/pdf/CURRICULUM VITAE ENGLISH 28-06-24.pdf';
 import logo_rnv from "../../assets/logos/logo-RNV-removebg-preview.png"
-
 
 const Intro = () => {
   const {t, i18n} = useTranslation(["intro"])
